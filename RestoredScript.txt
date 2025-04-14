@@ -1,0 +1,6 @@
+USE [master]
+RESTORE DATABASE [TestBackup] FROM  DISK = N'D:\TTCS\BackupRestoredParkingManageme' WITH  FILE = 2,  MOVE N'parking_management' TO N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\TestBackup.mdf',  MOVE N'parking_management_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\TestBackup_log.ldf',  NOUNLOAD,  STATS = 5
+
+GO
+
+
